@@ -3,7 +3,7 @@ It's a simple example of SPA using local storage.
 
 generate.html - this file is using for generating car objects and saving it in local storage. Our SPA using local storage like a Data Base.
 
-index.html - it's a propably our SPA. (For looking pages use such URL [example: pathToHTMLPage#Search?search=BMW]);
+index.html - it's a propably our SPA. (For looking pages use such URL [example: pathToHTMLFile#Search?search=BMW]);
 
 
 
