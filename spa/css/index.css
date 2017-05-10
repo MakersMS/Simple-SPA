@@ -1,0 +1,126 @@
+.search-block
+{
+    font-size: 15px;
+    background: gray;
+    margin: 0 auto;
+    padding: 2px;
+    width: 50%;
+    min-width: 300px;
+    display: block;
+    border-radius: 5px;
+}
+
+.search-label
+{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.search-field input[type="text"]
+{
+    border-color: black;
+    font-weight: bold;
+    padding: 1px 5px 1px 5px;
+    width: 50%;
+}
+
+.top-popular-block
+{
+    border-radius: 10px;
+    font-size: 15px;
+    background: gray;
+    margin: 20px auto;
+    padding: 1px;
+    max-width: 1500px;
+    width: 95%;
+    display: block;
+}
+
+.top-popular-content
+{
+    border-radius: 5px;
+    height: 180px;
+    width: 220px;
+    margin: 5px 2px 5px 2px;
+    padding: 5px;
+    display: inline-block;
+    text-align: left;
+    color: black;
+}
+
+.top-popular-content:hover
+{
+    background: lightgray;
+}
+
+.top-popular-content:active
+{
+    background: white;
+}
+
+.top-popular-image
+{
+    display: inline-block;
+    margin: auto;
+    border: 1px solid black;
+    background: black;
+    width: 220px;
+    height: 120px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.top-popular-image img
+{
+    max-width: 220px;
+    max-height: 120px;
+}
+
+.top-popular-info
+{
+    display: block;
+    width: 100%;
+}
+
+.top-popular-characteristic
+{
+    display: block;
+    float: left;
+}
+
+.top-popular-car-name
+{
+    display: block;
+    font-weight: bold;
+}
+
+.top-popular-car-info
+{
+    display: block;
+}
+
+.top-popular-cost
+{
+    display: block;
+    float: right;
+    text-align: right;
+}
+
+.top-popular-cost-value
+{
+    display: block;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover
+{
+    text-decoration: none;
+}
+
+.search-button
+{
+    width: 50px;
+    heigth: 20px;
+}

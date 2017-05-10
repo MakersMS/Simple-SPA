@@ -1,0 +1,83 @@
+.car-name
+{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 48px;
+    color: black;
+}
+
+.car-data-info
+{
+    text-align: left;
+    color: dimgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.car-data-id
+{
+    margin-right: 20px;
+}
+
+.car-info
+{
+    display: table;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.car-characteristic
+{
+    display: table-cell;
+    vertical-align: top;
+}
+
+.car-cost
+{
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    width: 200px;
+    background: indianred;
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+.car-characteristic-row
+{
+    display: table-row;
+    text-align: left;
+    min-width: 200px;
+}
+
+.car-characteristic-name
+{
+    display: inline-block;
+    width: 110px;
+    margin-left: 5px;
+    color: gray;
+}
+
+.car-characteristic-value
+{
+    text-align: left;
+    margin-right: 5px;
+}
+
+.car-image
+{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid dimgray;
+    background: black;
+    width: 70%;
+    height: 70%;
+    max-width: 400px;
+    max-height: 300px;
+}
+
+.car-image img
+{
+    max-width: 100%;
+    max-height: 100%;
+}

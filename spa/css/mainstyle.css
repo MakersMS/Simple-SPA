@@ -1,0 +1,51 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: Tahoma;
+}
+
+
+header
+{
+    left: 0;
+    right: 0;
+    background-color: dimgray;
+    color: white;
+}
+
+h1
+{
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+    min-width: 300px;
+}
+
+.content {
+    padding: 10px 10px 50px 10px;
+    text-align: center;
+}
+
+footer
+{
+    float: none;
+    text-align: center;
+    background-color: dimgray;
+    color: white;
+    left: 0;
+    right: 0;
+    position: absolute;
+    bottom: 0;
+}
+

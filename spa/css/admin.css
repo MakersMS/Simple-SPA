@@ -1,0 +1,48 @@
+.admin-table
+{
+    clear: left;
+}
+
+.admin-table-row{
+    max-width: 1000px;
+    border: 1px solid black;
+    display: block;
+}
+
+.admin-table-main-row{
+    max-width: 1000px;
+    border: 1px solid black;
+    background: dimgrey;
+    display: block;
+}
+
+.admin-table-field
+{
+    display: inline-block;
+    width: 100px;
+    padding: 0 5px 0 5px;
+}
+
+.admin-table-row:hover
+{
+    background: lightgray;
+}
+
+.admin-menu
+{
+    display: block;
+    max-width: 1000px;
+    height: 25px;
+}
+
+.admin-search
+{
+    float: left;
+    width: 190px;
+}
+
+.admin-add
+{
+    float: right;
+    width: 90px;
+}

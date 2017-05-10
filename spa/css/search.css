@@ -1,0 +1,199 @@
+.search
+{
+    display: table;
+    width: 100%;
+}
+
+input:focus
+{
+  outline: none;
+}
+
+.search-result-list,
+.search-filter
+{
+    display: table-cell;
+}
+
+.search-result-content,
+.search-result-year,
+.search-result-cost,
+.search-result-views
+{
+    display: table-row;
+}
+
+.search-filter
+{
+    border: 1px solid dimgray;
+    background: lightgray;
+    width: 40%;
+    max-width: 100px;
+}
+
+
+.search-result-img
+{
+    min-width: 200px;
+    width: 200px;
+    height: 200px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background: black;
+    border: 1px solid dimgray;
+}
+
+.search-result-img img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.search-result-car-info
+{
+    display: table-cell;
+    padding: 0 30px 0 10px;
+    min-width: 150px;
+    text-align: left;
+    border-top: 1px solid dimgray;
+    border-bottom: 1px solid dimgray;
+}
+
+
+.search-result-year
+{
+    color: dimgray;
+    font-weight: bold;
+}
+
+.search-result-cost
+{
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.search-result-views
+{
+    font-size: 12px;
+    color: gray;
+}
+
+
+.search-result-car-characteristic
+{
+    display: table-cell;
+    text-align: left;
+    min-width: 200px;
+    width: 100%;
+    border-top: 1px solid dimgray;
+    border-bottom: 1px solid dimgray;
+}
+
+.search-result-characteristic
+{
+    color: black;
+}
+
+.search-result-name
+{
+    display: table-row;
+    padding-left: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.search-filter-name
+{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.search-filter-characteristic
+{
+    margin: 5px;
+    text-align: center;
+}
+
+.search-filter-characteristic-name
+{
+    display: block;
+}
+
+.search-filter-input
+{
+    width: 45%;
+}
+
+.search-filter-characteristic input[type="number"],
+.search-filter-characteristic input[type="text"],
+.search-filter-characteristic select
+{
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    height: 24px;
+    color: black;
+    font-size: 14px;
+    font-family: Tahoma;
+}
+
+.search-radio
+{
+    padding: 0 5px 0 5px;
+    margin: 0 5px 0 5px;
+    display: inline;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[type="radio"]
+{
+    display: none;
+}
+
+.custom-radio
+{
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: white;
+}
+
+input[type="radio"]:checked + .search-radio
+{
+    background: black;
+    color: lightgray;
+}
+
+input[type="radio"]:checked + .search-radio .custom-radio::before
+{
+    content: "";
+    display: block;
+    position: absolute;
+
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+
+    background: black;
+    border-radius: 3px;
+}
+
+input[type="button"]
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    font-size: 14px;
+    font-family: Tahoma;
+}
+
